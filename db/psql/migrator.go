@@ -46,3 +46,5 @@ func MigrateDB(database *sql.DB, migrationsPath string, driver Driver) error {
 
 	return nil
 }
+
+// dummy change to trigger new version
